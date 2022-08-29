@@ -1,0 +1,180 @@
+html .btn-secondary {
+  background-color: #5bb947;
+  border-color: #5bb947 #5bb947 #65b653;
+  color: #fff;
+  --color: #5bb947;
+  --hover: #a4da98;
+  --disabled: #5bb947;
+  --active: #519e3f;
+}
+
+html .btn-secondary:hover,
+html .btn-secondary.hover {
+  border-color: #90ca83 #90ca83 #90ca83;
+  color: #fff;
+}
+
+html .btn-secondary:hover:not(.bg-transparent),
+html .btn-secondary.hover:not(.bg-transparent) {
+  background-color: #7cc06d;
+}
+
+html .btn-secondary:focus,
+html .btn-secondary.focus {
+  border-color: #3db132 #3db132 #3db132;
+  color: #fff;
+  box-shadow: 0 0 0 3px rgba(89, 227, 123, 0.5);
+}
+
+html .btn-secondary:focus:not(.bg-transparent),
+html .btn-secondary.focus:not(.bg-transparent) {
+  background-color: #5bb329;
+}
+
+html .btn-secondary.disabled,
+html .btn-secondary:disabled {
+  border-color: #59e360 #59e360 #2ddc3c;
+}
+
+html .btn-secondary.disabled:not(.bg-transparent),
+html .btn-secondary:disabled:not(.bg-transparent) {
+  background-color: #59e377;
+}
+
+html .btn-secondary:active,
+html .btn-secondary.active {
+  border-color: #2ddc36 #2ddc36 #18b339 !important;
+}
+
+html .btn-secondary:active:not(.bg-transparent),
+html .btn-secondary.active:not(.bg-transparent) {
+  background-color: #5add4e !important;
+  background-image: none !important;
+}
+
+html .btn-secondary-scale-2 {
+  background-color: #2ddc36;
+  border-color: #2ddc36 #2ddc36 #2cb71f;
+  color: #fff;
+}
+
+html .btn-secondary-scale-2:hover,
+html .btn-secondary-scale-2.hover {
+  border-color: #70e359 #70e359 #2ddc36;
+  color: #fff;
+}
+
+html .btn-secondary-scale-2:hover:not(.bg-transparent),
+html .btn-secondary-scale-2.hover:not(.bg-transparent) {
+  background-color: #70e359;
+}
+
+html .btn-secondary-scale-2:focus,
+html .btn-secondary-scale-2.focus {
+  border-color: #0f7926 #0f7926 #0f7926;
+  color: #fff;
+  box-shadow: 0 0 0 3px rgba(40, 145, 80, 0.5);
+}
+
+html .btn-secondary-scale-2:focus:not(.bg-transparent),
+html .btn-secondary-scale-2.focus:not(.bg-transparent) {
+  background-color: #c22a21;
+}
+
+html .btn-secondary-scale-2.disabled,
+html .btn-secondary-scale-2:disabled {
+  border-color: #dc372d #dc372d #b7281f;
+}
+
+html .btn-secondary-scale-2.disabled:not(.bg-transparent),
+html .btn-secondary-scale-2:disabled:not(.bg-transparent) {
+  background-color: #dc372d;
+}
+
+html .btn-secondary-scale-2:active,
+html .btn-secondary-scale-2.active {
+  border-color: #b7281f #b7281f #8b1e18 !important;
+}
+
+html .btn-secondary-scale-2:active:not(.bg-transparent),
+html .btn-secondary-scale-2.active:not(.bg-transparent) {
+  background-color: #c22a21 !important;
+  background-image: none !important;
+}
+
+html .show > .btn-secondary.dropdown-toggle,
+html .show > .btn-secondary-scale-2.dropdown-toggle {
+  background-color: #dd4238 !important;
+  background-image: none !important;
+  border-color: #dc372d #dc372d #b7281f !important;
+}
+
+html .btn-check:active + .btn-secondary,
+html .btn-check:checked + .btn-secondary,
+html .btn-check:focus + .btn-secondary {
+  background-color: #df4c43;
+  border-color: #e36159 #e36159 #df4c43;
+  color: #fff;
+}
+
+html .bg-primary {
+  background-color: #5bb947 !important;
+}
+
+#footer .footer-ribbon {
+  background: #41a846;
+}
+#footer .footer-ribbon:before {
+  border-right-color: #0f7926;
+  border-left-color: #0f7926;
+}
+
+.woocommerce a.woo_loop_btn,
+.woocommerce a.add_to_cart_button:not(.flat-woo-btn) {
+  background: #f82727 !important;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus,
+.pagination .page-item.active .page-link {
+  background-color: #3bcc36 !important;
+  border-color: #3bcc36;
+}
+
+@media (min-width: 576px) {
+  .col-lg-1-5 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-lg-1-5 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-1-5 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (min-width: 1360px) {
+  .col-lg-1-5 {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+#header .header-nav-features .header-nav-features-cart .mini-products-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
